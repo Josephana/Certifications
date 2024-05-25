@@ -1,0 +1,52 @@
+body {
+  background-color: #666362;
+  margin: 0rem;
+}
+
+.heading {
+  color: white;
+  display: grid;
+  place-items: center;
+}
+.heading h3 {
+  margin-top: 0rem;
+}
+
+img {
+  width: 80%;
+  border: rebeccapurple 10px solid;
+  border-radius: 10px;
+}
+
+.certifications {
+  margin: 1rem 6rem 0.5rem 6rem;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1.5rem;
+}
+.certifications .udemy img {
+  width: 60%;
+}
+.certifications .udemy p {
+  width: 55%;
+  text-align: center;
+}
+.certifications p {
+  color: white;
+  margin-bottom: 0rem;
+}
+
+.certificates {
+  display: grid;
+  grid-auto-flow: column;
+}
+.certificates .show {
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-items: center;
+}
+.certificates .show span {
+  align-self: center;
+}/*# sourceMappingURL=index.css.map */
